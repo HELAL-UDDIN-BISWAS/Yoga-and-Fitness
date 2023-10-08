@@ -1,0 +1,61 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/jV7CsWY/Screenshot-2023-10-08-202349.png",
+      "name": "Serene Yoga Retreat",
+      "title": "Rejuvenate Your Body and Mind",
+      "short_description": "Escape to the tranquil mountains and immerse yourself in yoga and meditation.",
+      "long_description": "Experience the ultimate relaxation and rejuvenation at our Serene Yoga Retreat. Nestled in the heart of the lush mountains, this retreat offers a perfect blend of yoga, meditation, and nature. Disconnect from the hustle and bustle of daily life and connect with your inner self. Our experienced instructors will guide you through various yoga practices, and you'll have the opportunity to explore beautiful hiking trails and enjoy healthy, delicious meals. Join us for a transformative journey of self-discovery and well-being.",
+      "aos":"fade-left"
+      
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/RhcV6VR/Screenshot-2023-10-06-235817.png",
+      "name": "Fitness Paradise Retreat",
+      "title": "Achieve Your Fitness Goals",
+      "short_description": "Embark on a fitness journey in a tropical paradise.",
+      "long_description": "Welcome to Fitness Paradise Retreat, where fitness meets the serenity of the beach. This retreat is designed to help you achieve your fitness goals while enjoying the beauty of the ocean. Our skilled trainers will lead you through a variety of fitness classes, from yoga and pilates to HIIT workouts. You'll also have time to relax on the beach, indulge in nutritious meals, and participate in mindfulness sessions. Join us for a transformative experience that will leave you feeling stronger, healthier, and more balanced.",
+      "aos":"fade-right"
+
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/mt88wvX/Screenshot-2023-10-08-202257.png",
+      "name": "Meditation Oasis Retreat",
+      "title": "Find Inner Peace and Stillness",
+      "short_description": "Discover the power of meditation in a peaceful oasis.",
+      "long_description": "Escape to the Meditation Oasis Retreat and immerse yourself in the practice of mindfulness and meditation. Located in a serene oasis surrounded by lush gardens, this retreat offers a peaceful sanctuary for your mind and soul. Learn various meditation techniques, engage in deep self-reflection, and connect with like-minded individuals. Our experienced meditation guides will lead you on a journey of self-discovery and inner peace. Recharge your spirit and return home with a renewed sense of balance and clarity.",
+      "aos":"fade-left"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/G0588Q4/Screenshot-2023-10-06-235044.png",
+      "name": "Mountain Bliss Yoga Retreat",
+      "title": "Connect with Nature and Inner Peace",
+      "short_description": "Experience yoga in the breathtaking beauty of the mountains.",
+      "long_description": "Join us at the Mountain Bliss Yoga Retreat, where you can connect with nature and find inner peace. Located in the heart of the majestic mountains, this retreat offers daily yoga sessions with stunning mountain views. Immerse yourself in the tranquility of the surroundings, explore nearby hiking trails, and savor delicious organic meals. Our expert yoga instructors will guide you through a variety of practices, leaving you feeling rejuvenated and connected with yourself and the world around you.",
+      "aos":"fade-right"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/z5NJ7G5/Screenshot-2023-10-08-201923.png",
+      "name": "Wellness Retreat Haven",
+      "title": "Nurture Your Body, Mind, and Soul",
+      "short_description": "Experience holistic wellness in a serene setting.",
+      "long_description": "Welcome to the Wellness Retreat Haven, a place to nurture your body, mind, and soul. This retreat offers a holistic approach to wellness, including yoga, meditation, spa treatments, and nutritious cuisine. Relax in a peaceful environment, take part in mindfulness workshops, and pamper yourself at the spa. Our dedicated wellness experts will help you achieve balance and rejuvenation. Leave feeling refreshed, revitalized, and ready to embrace a healthier lifestyle.",
+      "aos":"fade-left"
+
+    },
+    {
+      "id": 6,
+      "image": "  https://i.ibb.co/zXdKypR/Screenshot-2023-10-08-201851.png",
+      "name": "Beachfront Yoga and Surf Retreat",
+      "title": "Surf, Yoga, and Relaxation by the Sea",
+      "short_description": "Experience the perfect blend of yoga, surfing, and beachfront relaxation.",
+      "long_description": "Join us for the Beachfront Yoga and Surf Retreat, where you can ride the waves, practice yoga, and relax by the sea. This retreat combines the thrill of surfing with the serenity of yoga and meditation. Whether you're a beginner or an experienced surfer, our instructors will help you catch the perfect wave. Afterward, unwind with yoga sessions on the beach, indulge in delicious seafood, and take in the breathtaking ocean views. It's the ultimate beachfront escape for adventure and relaxation.",
+      "aos":"fade-right"
+    }
+  
+ 
+  ]

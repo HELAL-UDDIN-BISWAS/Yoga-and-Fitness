@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/Nm6Md6p/meditation-3591128.png",
+        "description": "Join us for a rejuvenating yoga and fitness retreat nestled in the serene mountains. This retreat offers a perfect blend of yoga, meditation, and fitness classes to refresh your mind and body.",
+        "name": "Mountain Bliss Retreat",
+        "aos":"fade-right"
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/KLn3nZP/8jgs9eldc28j15f4d4mjnnqa6n.png",
+        "description": "Escape to a tropical paradise and experience the ultimate yoga and fitness retreat. Enjoy daily yoga sessions, beach workouts, and nutritious meals in a tranquil beachfront setting.",
+        "name": "Tropical Yoga Paradise",
+        "aos":"fade-left"
+      }
+]
