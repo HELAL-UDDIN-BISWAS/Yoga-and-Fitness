@@ -11,8 +11,8 @@ const AuthProvider = ({ children }) => {
     const provaider=new GoogleAuthProvider()
 
     const  signupUser = (email, password) => {
-     return signInWithEmailAndPassword(auth, email, password)
      setLoding(true)
+     return signInWithEmailAndPassword(auth, email, password)
      
 
     }
