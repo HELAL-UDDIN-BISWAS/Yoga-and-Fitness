@@ -2,22 +2,27 @@ import React, { useContext, useState } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
+
 const Login = () => {
+  const [signInUser, setsignInUser] = useState('')
+const [LoginFaild, setLoginFaild] = useState('')
   const location = useLocation()
   const navegate = useNavigate()
-
-
-  // const [LoginMessege,setLoginMessege]=useState('')
-  //       const [LoginFaild, setLoginFaild]=useState('')
-  const { signupUser, signInUser, LoginFaild } = useContext(AuthContext)
-
+  const { signupUser} = useContext(AuthContext)
+console.log(location)
   const handleLogin = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const email = form.get("email");
     const password = form.get("password");
-
     signupUser(email, password)
+      .then(() => {
+            setsignInUser("Login Conform"),
+          navegate(  location.state? location.state : "/")
+        })
+        .catch(() => {
+            setLoginFaild("Login Faild")
+        })
 
   }
 
@@ -35,7 +40,7 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" name='password' className="input input-bordered" required />
+          <input type="text" placeholder="password" name='password' className="input input-bordered" required />
           <label className="label">
             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>

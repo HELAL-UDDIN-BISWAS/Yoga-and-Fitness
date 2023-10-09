@@ -7,20 +7,13 @@ export const AuthContext = createContext(null)
 const auth = getAuth(app);
 const AuthProvider = ({ children }) => {
     const [user, setuser] = useState(null)
-    const [signInUser, setsignInUser] = useState('')
-    const [LoginFaild, setLoginFaild] = useState('')
     const [loding, setLoding]=useState(true)
     const provaider=new GoogleAuthProvider()
 
-    const signupUser = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-        .then(() => {
-            setsignInUser("Login Conform")
-        })
-        .catch(() => {
-            setLoginFaild("Login Faild")
-        })
-        setLoding(true)
+    const  signupUser = (email, password) => {
+     return signInWithEmailAndPassword(auth, email, password)
+     setLoding(true)
+     
 
     }
 
@@ -50,7 +43,7 @@ const AuthProvider = ({ children }) => {
         })
     }, [])
 
-    const AuthInfo = {location, loding,user,googlesignin, createUser, signupUser,logout,signInUser,LoginFaild}
+    const AuthInfo = {location, loding,user,googlesignin, createUser, signupUser,logout,}
     return (
         <AuthContext.Provider value={AuthInfo}>
             {children}

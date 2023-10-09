@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
+import { FaGoogle } from 'react-icons/fa';
 
 const Navbar = () => {
   const{user,logout,googlesignin}=useContext(AuthContext)
@@ -46,8 +47,8 @@ const Navbar = () => {
          <button className="btn btn-active btn-ghost  text-center ml-10" onClick={handalesignout}>SignOut</button>
        <p className=''>{user.email}</p>
        </div>:
-      <> <button className="btn btn-active btn-ghost ml-2" onClick={googlesigninbutton}>Google</button>
-        <Link className="btn btn-active btn-ghost ml-2" to="/login">Login</Link></>
+      <div className='items-center text-center'> <button className="btn px-7 btn-active btn-ghost ml-2" onClick={googlesigninbutton}><FaGoogle></FaGoogle></button>
+        <Link className="btn btn-active btn-ghost ml-2" to="/login">Login</Link></div>
     
       
      
