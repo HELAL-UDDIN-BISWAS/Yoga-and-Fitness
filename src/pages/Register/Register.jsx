@@ -12,17 +12,16 @@ const Register = () => {
   const form =new FormData(e.currentTarget);
   const email=form.get("email")
   const password=form.get('password')
-  const checkbox=form.get('chackbox')
-  console.log(email,password)
-  if(!checkbox){
+  const checkboxes=form.get('checkbox')
+  console.log(email,password,checkboxes)
+  if(!checkboxes){
     setchackbox('Click Chacked Box')
     return
    }
-  if (!/[A-Z][@#$!%^&*][password>=6]/.test(password)){
+  if (!/[A-Z][@#$!%^&*]/.test(password)){
     setChackPassword("set strong password")
   return
    }
-  
   createUser(email,password)
 
  }
@@ -42,19 +41,19 @@ const Register = () => {
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" name='password' className="input input-bordered" required />
+          <input type="text" placeholder="password" name='password' className="input input-bordered" required />
           <label className="label">
             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>
         </div>
         <div className="form-control lg:my-3 lg:mx-5 ">
-          <button className="btn btn-primary">Login</button>
+          <button className="btn btn-primary">Register</button>
         </div>
         <div className='flex'>
-            <input type="checkbox" name="checkbox" id="" />
+            <input type="checkbox" name="checkbox" id="checkbox" />
               <p>Set Chackbox</p>
              </div>
-             <h3 className='text-red-600 text-xl text-center' >{chackbox}</h3>
+             <h3 className='text-red-600 text-xl text-center'>{chackbox}</h3>
       <p className='text-white'>Have't Acount <span className='font-bold text-blue-600'> <Link to="/login">Login</Link> </span></p>
       <h3 className='text-red-600 text-xl text-center'>{chackPassword}</h3>
       </form>

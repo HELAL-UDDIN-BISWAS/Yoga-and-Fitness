@@ -39,18 +39,21 @@ const Navbar = () => {
      }
     </ul>
   </div>
-  <div className="navbar-end">
+  <div className="lg:navbar-end ">
+    <div>
     {
-      user?<>
-       <p>{user.email}</p>
-       <button className="btn btn-active btn-ghost ml-2" onClick={handalesignout}>SignOut</button>
-      </>:
+      user?<div className=' items-center '>
+         <button className="btn btn-active btn-ghost  text-center ml-10" onClick={handalesignout}>SignOut</button>
+       <p className=''>{user.email}</p>
+       </div>:
       <> <button className="btn btn-active btn-ghost ml-2" onClick={googlesigninbutton}>Google</button>
         <Link className="btn btn-active btn-ghost ml-2" to="/login">Login</Link></>
     
       
      
     }
+    </div>
+   
   </div>
 </div>
     );
