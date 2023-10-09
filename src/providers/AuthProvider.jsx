@@ -18,8 +18,8 @@ const AuthProvider = ({ children }) => {
     }
 
     const createUser = (email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
         setLoding(true)
+       return createUserWithEmailAndPassword(auth, email, password)
     }
 
     const logout=()=>{
